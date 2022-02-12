@@ -1,0 +1,199 @@
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Rowdies:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+
+header {
+	font-family: roboto;
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 3px dashed black;
+}
+.box {
+	margin: 40px 20px;
+}
+.border {
+	border: 10px dashed blue;
+	width: 200px;
+	margin: 0 auto;
+	box-shadow: 15px -15px 40px 15px rgb(123, 165, 255);
+}
+.border2 {
+	border: 8px dotted green;
+}
+.border3 {
+	border: 6px solid red;
+	background-color: rgb(236, 236, 182);
+}
+.p {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin: 60px 0;
+	font-size: 20px;
+}
+
+.content {
+	text-align: justify;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.title1 {
+	font-size: 45px;
+	font-weight: bolder;
+	padding-bottom: 40px;
+}
+.title-content p {
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.parahraf-title1 {
+	border: 20px solid rgb(224, 224, 224);
+	background-color: rgba(252, 252, 178, 0.548);
+	border-bottom: none;
+	margin-bottom: 40px;
+}
+.parahraf-title2 {
+	font-size: 20px;
+	border-bottom: 3px double rgb(39, 70, 252);
+	line-height: 130%;
+}
+img {
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+.block {
+	border: 4px solid rgb(255, 196, 0);
+	border-radius: 10px 0px;
+	margin: 40px 0;
+	box-shadow: inset 0px 0px 10px 0px black, 0 0 10px 0 rgb(202, 115, 0);
+}
+.content-block {
+	font-family: Arial, Helvetica, sans-serif;
+	opacity: 0.7;
+}
+.parahraf-block {
+	font-size: 20px;
+	padding: 10px;
+}
+.outline {
+	font-size: 20px;
+	outline: 10px dotted rgb(255, 196, 0);
+	background-color: rgb(199, 199, 199);
+	margin-bottom: 80px;
+}
+
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+.project {
+	text-align: justify;
+	width: 800px;
+	margin: 0 auto;
+	font-style: normal;
+	color: #313131;
+}
+.project-block {
+	font-family: Circular Std;
+}
+.super-project {
+	text-align: center;
+	font-family: lobster;
+	font-size: 80px;
+	color: rgba(107, 0, 0, 0.753);
+	margin-bottom: 40px;
+	border: 10px double rgb(161, 119, 119);
+	padding: 10px;
+}
+.project-title1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 65px;
+	line-height: 82px;
+	margin-bottom: 20px;
+}
+.parahraf-project-title {
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #5f5f5f;
+}
+
+.block-great {
+	width: 450px;
+	margin-top: 225px;
+}
+.great-title {
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 130%;
+	margin-bottom: 20px;
+}
+.great-parahraf {
+	font-size: 18px;
+	text-align: initial;
+	line-height: 28px;
+	color: #5f5f5f;
+	margin-bottom: 60px;
+}
+.great-box {
+}
+.box-parahraf1 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 130%;
+}
+.box-parahraf2 {
+	font-size: 18px;
+	line-height: 23px;
+	color: #b8b8b8;
+}
+.img-project {
+	margin: 40px 40px;
+}
+.imeg {
+	width: 468px;
+	height: 675px;
+}
+
+footer {
+	font-family: Lobster;
+	font-size: 30px;
+	font-weight: bold;
+	border-top: 3px dotted #000;
+}
